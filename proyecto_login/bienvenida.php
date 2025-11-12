@@ -10,6 +10,35 @@ exit;
 <head>
 <meta charset="UTF-8">
 <title>Bienvenida</title>
+<style>
+    
+    body {
+        font-family: sans-serif;
+        background: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    h1 {
+        color: black;
+        margin-bottom: 25px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 14px;
+        background-color: gray;
+    }
+
+    input:focus {
+        border-color: aqua;
+    }
+       
+</style>
 </head>
 <body>
 <h1>Bienvenido, <?php echo $_SESSION['usuario']; ?> 🎉</h1>

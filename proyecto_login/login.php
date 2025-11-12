@@ -62,17 +62,7 @@
     button:hover {
         background: aqua;
     }
-
-    p {
-        margin-top: 15px;
-        font-size: 14px;
-    }
-
-    a {
-        color: aqua;
-        font-weight: bold;
-    }
-
+    
     a:hover {
         text-decoration: underline;
     }

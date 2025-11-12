@@ -68,11 +68,6 @@
         font-size: 14px;
         color: gray;
     }
-
-    a {
-        color: aqua;
-    }
-
     a:hover {
         text-decoration: underline;
     }
