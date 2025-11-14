@@ -24,15 +24,6 @@ exit;
         color: black;
         margin-bottom: 25px;
     }
-    input[type="text"],
-    input[type="password"] {
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid gray;
-        border-radius: 6px;
-        font-size: 14px;
-        background-color: gray;
-    }
 
     input:focus {
         border-color: aqua;
