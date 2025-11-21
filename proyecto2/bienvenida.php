@@ -17,4 +17,4 @@ exit;
 <p>Has iniciado sesión correctamente.</p>
 <p><a href="logout.php">Cerrar sesión</a></p>
 </body>
-</html>
+</html> 
