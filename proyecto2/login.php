@@ -16,4 +16,4 @@
 </form>
 <p>¿No tienes cuenta? <a href="registro.php">Regístrate aquí</a></p>
 </body>
-</html> 
+</html>  
