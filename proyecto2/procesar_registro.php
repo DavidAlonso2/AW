@@ -7,7 +7,14 @@ $hash = password_hash($password, PASSWORD_DEFAULT);
 // Preparar consulta segura
 $stmt = $conn->prepare("INSERT INTO usuarios (usuario, password) VALUES (?, ?)");
 $stmt->bind_param("ss", $usuario, $hash);
-if ($stmt->execute()) {
+if ($stmt->execute()) 
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="estilos.css">
+{
 echo "<h1>Usuario registrado correctamente 🎉</h1>";
 echo "<p><a href='login.php'>Iniciar sesión</a></p>";
 } else {
@@ -16,3 +23,5 @@ echo "<p><a href='registro.php'>Volver al registro</a></p>";
 }
 $stmt->close();
 $conn->close();
+</head>
+</html>
